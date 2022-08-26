@@ -14,7 +14,6 @@
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgb(228,228,228);
-
 }
 
 .left-section {
@@ -56,20 +55,15 @@
   height: 36px;
   padding-left: 10px;
   font-size: 16px;
-  border-width: 1px;
-  border-style: solid;
-  border-color:rgb(192,192,192);
+  border: 1px solid rgb(192,192,192);
   border-radius: 2px;
   box-shadow: inset 1px 2px 3px
   rgba(0, 0, 0, 0.05);
   width: 0;
-
 }
 
 .search-bar::placeholder {
-  font-family: Roboto, Arial;
   font-size: 16px;
-
 }
 
 .search-button {
@@ -90,7 +84,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .search-button .tooltip,
@@ -98,7 +91,6 @@
 .upload-icon-container .tooltip,
 .youtube-apps-container .tooltip,
 .notifications-icon-container .tooltip {
-  font-family: Roboto, Arial;
   position: absolute;
   background-color: gray;
   color: white;
@@ -121,7 +113,6 @@
 .youtube-apps-container:hover .tooltip,
 .notifications-icon-container:hover .tooltip{
   opacity: 1;
-
 }
 .search-icon {
   height: 25px;
@@ -161,7 +152,6 @@
   right: -5px;
   background-color: rgb(200,0,0);
   color: white;
-  font-family: Roboto, Arial;
   font-size: 11px;
   padding-left: 5px;
   padding-right: 5px;
